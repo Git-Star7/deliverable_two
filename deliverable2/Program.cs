@@ -18,7 +18,7 @@ namespace deliverable2
                 checksum += System.Convert.ToInt32(myChar);
             }
 
-            Console.WriteLine(message);
+            Console.WriteLine("Your encoded message is " message);
             Console.WriteLine("Message checksum is " + checksum);
         }
     }
